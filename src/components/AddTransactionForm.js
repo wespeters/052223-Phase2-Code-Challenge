@@ -5,7 +5,7 @@ function AddTransactionForm({ addTransaction }) {
     date: "",
     description: "",
     category: "",
-    amount: 0,
+    amount: "",
   });
 
   const handleFormChange = (e) => {
